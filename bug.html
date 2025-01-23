@@ -1,0 +1,1 @@
+<!DOCTYPE html><html><head><title>Uncommon HTML Bug</title></head><body> <p>This is a paragraph.</p> <div id="myDiv"></div> <script> //This is where the uncommon bug resides.  document.getElementById('myDiv').appendChild(document.createTextNode('This will cause an error if the element is not found.')); </script> </body></html>
